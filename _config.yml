@@ -22,7 +22,7 @@ avatar_image: /img/profile.jpg
 
 #-------------------------------
 # Contact links
-linkedln: "https://www.linkedln.com/in/wylie-burt" # Add your linkedln handle
+linkedln: "https://www.linkedin.com/in/wylie-burt" # Add your linkedln handle
 github: "https://github.com/wylieburt"  # Add your github handle
 
 paginate: 6
@@ -51,6 +51,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 
 
