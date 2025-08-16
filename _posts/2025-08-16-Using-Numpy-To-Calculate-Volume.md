@@ -8,7 +8,8 @@ tags: [Python, NumPy]
 In this post I'm going to run through NumPy in Python to quickly find all the volumes of the planets in our solar system.  I will then show that this can be done for 1,000,000 hypothetical planets in sub-second performance.  The performance for 1,000,000 planets is about the same as for 8 planets. Incredible!
 
 The volume of an object can be calculated using the radius of the object with a simple formula.
-volume = 4/3 * pi * radius cubed
+
+volume = 4/3 * π * radius³
 
 Let's get into it!
 
@@ -56,6 +57,7 @@ Amazing! NumPy is incredibly fast. 1,000,000 calculations using floats done in 0
 Let's talk about why this NumPy performs so well.  We could have done this a few different ways including using other data structures.  However, making use of NumPy arrays performs better because they can only hold one data type where as lists or tuples can hold many data types.  This difference is important because NumPy is able to send the entire task to the highly optimized C code that NumPy is built upon.  The result is a large boost in computation speed versus a normal Python for loop in conjunction with a list where each element would need to be checked first for it's data type.
 
 In conclusion, when you are in the situation of using large sets of a single data type, and performance is important then making use of NumPy is an excellent choice.
+
 
 
 
