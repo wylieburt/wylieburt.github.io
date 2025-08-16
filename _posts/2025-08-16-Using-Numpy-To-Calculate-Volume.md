@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Calculating the volume of the planets in our solar system
-image: "/img/posts/edu-solar-system-large.jpeg"
+image: "/img/posts/edu-solar-system-large.jpg"
 tags: [Python, Numpy]
 ---
 
@@ -56,6 +56,7 @@ Amazing! Numpy is incredibly fast. 1,000,000 calculations using floats done in 0
 Let's talk about why this Numpy performs so well.  We could have done this a few different ways including using other data structures.  However, making use of Numpy arrays performs better because they can only hold one data type where as lists or tuples can hold multiple data types.  This difference is important because Numpy is able to send the entire task to the highly optimized C code that Numpy is built upon.  The result is a largest boost in computation speed versus a normal Python for loop in conjunction with a list where each element would need to be checked first for it's data type.
 
 In conclusion, when you are in the situation of using large sets of a single data type, and performance is important then making use of Numpy is an excellent choice.
+
 
 
 
