@@ -6,7 +6,7 @@ tags: [Tableau, Data Viz]
 ---
 This is a Tableau Dashboard that tracks global Earthquake activity across a 30-day period.  The dashboard makes use of many Tableau features availaable for designing interesting dashboards.
 
-To use cycle through a 30 day period in 2022 by clicking on the arrow button in top right of dashboard.
+To use cycle through a 30 day period in 2022 by clicking on the arrow buttons in top right of dashboard under Analysis Date.
 
 Map shows color coded points from green to orange (smallest to largest in magnitude).  Also, the size of the point indicates the same in magnitude.  Zoom and pan in the map.  Use the button with a house to reset the map.
 
