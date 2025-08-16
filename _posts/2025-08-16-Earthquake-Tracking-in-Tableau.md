@@ -5,4 +5,4 @@ image: "/posts/Seismograph-For-Earthquake.jpg"
 tags: [Tableau, Data Viz]
 ---
 This is a Tableau Dashboard that tracks global Earthquake activity across a 30-day period.  The dashboard makes use of many Tableau features availaable for designing interesting dashboards.
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/Earthquake-dashboard_17547000591710/EarthquakeTracker" width = '1090' height = '900'></iframe
+<iframe seamless frameborder="0" src="https://public.tableau.com/app/profile/wylie.burt/viz/Earthquake-dashboard_17547000591710/EarthquakeTracker" width = '1090' height = '900'></iframe
