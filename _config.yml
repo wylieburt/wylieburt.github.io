@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Wylie Burt
-description: "Hi I'm Wylie, and I'm a Data Scientist.  My portfolio focuses on interesting projects I've recently undertaken while taking a Data Science and Machine Learning course from Data Science Infinity. Most of these projects are driven by a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "Hi I'm Wylie, and I'm a Data Scientist.  My portfolio focuses on interesting projects I've recently undertaken while taking a Data Science and Machine Learning course from Data Science Infinity. Most of these projects are driven by a strong emphasis on business impact. DSI provided this cool template for project portfolios, as well as a useful template for a post/project that includes a table of contents to make it easier for you to jump to the section that is most interesting to you.  Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -51,6 +51,7 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 
 
