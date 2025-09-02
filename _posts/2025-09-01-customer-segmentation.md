@@ -232,7 +232,7 @@ In the world of unsupervised learning, there is no *right or wrong* value for th
 
 Finding the "right" value for k, can feel more like art than science, but there are some data driven approaches that can help us!  
 
-The approach we will utilise here is known as *Within Cluster Sum of Squares (WCSS)* which measures the sum of the squared euclidean distances that data points lie from their closest centroid.  WCSS can help us understand the point where adding *more clusters* provides little extra benefit in terms of separating our data.
+The approach we will utilize here is known as *Within Cluster Sum of Squares (WCSS)* which measures the sum of the squared euclidean distances that data points lie from their closest centroid.  WCSS can help us understand the point where adding *more clusters* provides little extra benefit in terms of separating our data.
 
 By default, the k-means algorithm within scikit-learn will use k = 8 meaning that it will look to split the data into eight distinct clusters.  We want to find a better value that fits our data, and our task!
 
@@ -368,3 +368,4 @@ Here we've just focused on variables that are linked directly to sales - it coul
 
 
 It would be useful to test other clustering approaches such as hierarchical clustering or DBSCAN to compare the results.
+
