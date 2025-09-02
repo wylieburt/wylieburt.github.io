@@ -26,7 +26,7 @@ ___
 
 ### Context <a name="overview-context"></a>
 
-Earlier in the year, our client, a grocery retailer, ran a campaign to promote their new "Delivery Club" - an initiative that costs a customer $100 per year for membership, but offers free grocery deliveries rather than the normal cost of $10 per delivery.
+Earlier in the year, our fictional client, a grocery retailer, ran a campaign to promote their new "Delivery Club" - an initiative that costs a customer $100 per year for membership, but offers free grocery deliveries rather than the normal cost of $10 per delivery.
 
 They want to understand if customers who did join the club have increased their spend in the three months following.  The hypothesis is that, if customers are not paying for deliveries, they will be tempted to shop more frequently, and hopefully purchase more each time.
 
@@ -119,7 +119,7 @@ Once we have this counterfactual, we can proceed to calculate the estimation for
 <br>
 #### Application
 
-Here we will utilise a Python package called **pycausalimpact** to apply this algorithm to our data.  This will model the relationships, and provide very useful plots and summarises to help us understand the results.
+Here we will utilize a Python package called **pycausalimpact** to apply this algorithm to our data.  This will model the relationships, and provide very useful plots and summarises to help us understand the results.
 
 ___
 <br>
@@ -337,5 +337,6 @@ It would be interesting to track this uplift over time and see if:
 * It continues to grow
 * It flattens or returns to normal
 * We see any form of uplift pull-forward
+
 
 It would also be interesting to analyse what it is that is making up this uplift.  Are customers increasing their spend across the same categories - or are they buying into new categories
