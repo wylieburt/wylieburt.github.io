@@ -5,7 +5,7 @@ image: "/posts/classification-title-img.png"
 tags: [Customer Targeting, Machine Learning, Classification, Python]
 ---
 
-Our client, a grocery retailer, wants to utilise Machine Learning to reduce mailing costs, and improve ROI!
+Our client, a grocery retailer, wants to utilize Machine Learning to reduce mailing costs, and improve ROI!
 
 # Table of contents
 
@@ -344,7 +344,7 @@ For our task we applied a variation of Reursive Feature Elimination called *Recu
 <br>
 ```python
 
-# instantiate RFECV & the model type to be utilised
+# instantiate RFECV & the model type to be utilized
 clf = LogisticRegression(random_state = 42, max_iter = 1000)
 feature_selector = RFECV(clf)
 
@@ -483,7 +483,7 @@ Overall, optimising your model for F1-Score means that you'll get a model that i
 Using all of these metrics in combination gives a really good overview of the performance of a classification model, and gives us an understanding of the different scenarios & considerations!
 
 <br>
-In the code below, we utilise in-built functionality from scikit-learn to calculate these four metrics.
+In the code below, we utilize in-built functionality from scikit-learn to calculate these four metrics.
 
 ```python
 
@@ -772,7 +772,7 @@ Since the proportion of signups in our data was around 30:70 we will again analy
 
 For details on these performance metrics, please see the above section on Logistic Regression.  Using all four of these metrics in combination gives a really good overview of the performance of a classification model, and gives us an understanding of the different scenarios & considerations!
 
-In the code below, we utilise in-built functionality from scikit-learn to calculate these four metrics.
+In the code below, we utilize in-built functionality from scikit-learn to calculate these four metrics.
 
 ```python
 
@@ -1073,7 +1073,7 @@ Since the proportion of signups in our data was around 30:70 we will again analy
 
 For details on these performance metrics, please see the above section on Logistic Regression.  Using all four of these metrics in combination gives a really good overview of the performance of a classification model, and gives us an understanding of the different scenarios & considerations!
 
-In the code below, we utilise in-built functionality from scikit-learn to calculate these four metrics.
+In the code below, we utilize in-built functionality from scikit-learn to calculate these four metrics.
 
 ```python
 
@@ -1412,7 +1412,7 @@ For our task here we are again going to apply *Recursive Feature Elimination Wit
 <br>
 ```python
 
-# instantiate RFECV & the model type to be utilised
+# instantiate RFECV & the model type to be utilized
 from sklearn.ensemble import RandomForestClassifier
 clf = RandomForestClassifier(random_state = 42)
 feature_selector = RFECV(clf)
@@ -1530,7 +1530,7 @@ Since the proportion of signups in our data was around 30:70 we will next analys
 
 For details on these performance metrics, please see the above section on Logistic Regression.  Using all four of these metrics in combination gives a really good overview of the performance of a classification model, and gives us an understanding of the different scenarios & considerations!
 
-In the code below, we utilise in-built functionality from scikit-learn to calculate these four metrics.
+In the code below, we utilize in-built functionality from scikit-learn to calculate these four metrics.
 
 ```python
 
@@ -1663,3 +1663,4 @@ While predictive accuracy was relatively high - other modelling approaches could
 We could even look to tune the hyperparameters of the Random Forest, notably regularisation parameters such as tree depth, as well as potentially training on a higher number of Decision Trees in the Random Forest.
 
 From a data point of view, further variables could be collected, and further feature engineering could be undertaken to ensure that we have as much useful information available for predicting customer loyalty
+
