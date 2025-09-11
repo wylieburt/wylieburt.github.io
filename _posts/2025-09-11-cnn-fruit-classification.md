@@ -46,6 +46,7 @@ If this was successful and put into place on a larger scale, the client would be
 <br>
 <br>
 ### Actions <a name="overview-actions"></a>
+This was a really interesting project.  I learned so much more about Deep Learning, that will be explained below.
 
 We utilise the *Keras* Deep Learning library for this task.
 
@@ -1364,5 +1365,6 @@ ___
 # Growth & Next Steps <a name="growth-next-steps"></a>
 
 The proof of concept was successful, we have shown that we can get very accurate predictions albeit on a small number of classes.  We need to showcase this to the client, discuss what it is that makes the network more robust, and then look to test our best networks on a larger array of classes.
+
 
 Transfer Learning has been a big success, and was the best performing network in terms of classification accuracy on the Test Set - however we still only trained for a small number of epochs so we can push this even further.  It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
