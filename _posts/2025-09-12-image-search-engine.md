@@ -27,7 +27,7 @@ ___
 
 ### Context <a name="overview-context"></a>
 
-Our client had been analysing their customer feedback, and one thing in particular came up a number of times.
+Our client had been analyzing their customer feedback, and one thing in particular came up a number of times.
 
 Their customers are aware that they have a great range of competitively priced products in the clothing section - but have said they are struggling to find the products they are looking for on the website.
 
@@ -104,7 +104,7 @@ For image based tasks this often means using all the the *pre-learned* features 
 
 The hope is, that the features which have already been learned will be good enough to differentiate between our new classes, and we’ll save a whole lot of training time (and be able to utilise a network architecture that has potentially already been optimised).
 
-For our Fruit Classification task we will be utilising a famous network known as **VGG16**.  This was designed back in 2014, but even by todays standards is a fairly heft network.  It was trained on the famous *ImageNet* dataset, with over a million images across one thousand different image classes. Everything from goldfish to cauliflowers to bottles of wine, to scuba divers!
+For our Fruit Classification task we will be utilizing a famous network known as **VGG16**.  This was designed back in 2014, but even by todays standards is a fairly heft network.  It was trained on the famous *ImageNet* dataset, with over a million images across one thousand different image classes. Everything from goldfish to cauliflowers to bottles of wine, to scuba divers!
 
 <br>
 ![alt text](/img/posts/vgg16-architecture.png "VGG16 Architecture")
@@ -227,7 +227,7 @@ ___
 <br>
 #### Helper Functions
 
-Here we create two useful functions, one for pre-processing images prior to entering the network, and the second for featurising the image, in other words passing the image through the VGG16 network and receiving the output, a single vector of 512 numeric values.
+Here we create two useful functions, one for pre-processing images prior to entering the network, and the second for featurizing the image, in other words passing the image through the VGG16 network and receiving the output, a single vector of 512 numeric values.
 
 ```python
 
@@ -352,7 +352,7 @@ The search image we are going to use for illustration here is below:
 <br>
 #### Preprocess & Featurise Search Image
 
-Using the same helper functions, we apply the preprocessing & featurising logic to the search image - the output again being a vector containing 512 numeric values.
+Using the same helper functions, we apply the preprocessing & featurizing logic to the search image - the output again being a vector containing 512 numeric values.
 
 ```python
 
@@ -469,5 +469,6 @@ This was tested only in one category, we would want to test on a broader array o
 We only looked at Cosine Similarity here, it would be interesting to investigate other distance metrics.
 
 It would be beneficial to come up with a way to quantify the quality of the search results.  This could come from customer feedback, or from click-through rates on the site.
+
 
 Here we utilised VGG16. It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
