@@ -17,7 +17,7 @@ In this project we build a Deep Learning based Image Search Engine that will hel
 - [01. Sample Data Overview](#sample-data-overview)
 - [02. Transfer Learning Overview](#transfer-learning-overview)
 - [03. Setting Up VGG16](#vgg16-setup)
-- [04. Image Preprocessing & Featurisation](#image-preprocessing)
+- [04. Image Preprocessing & featurization](#image-preprocessing)
 - [05. Execute Search](#execute-search)
 - [06. Discussion, Growth & Next Steps](#growth-next-steps)
 
@@ -222,7 +222,7 @@ If we hadn't added that last parameter of "pooling = avg" then the final layer w
 
 ___
 <br>
-# Image Preprocessing & Featurisation <a name="image-preprocessing"></a>
+# Image Preprocessing & featurization <a name="image-preprocessing"></a>
 
 <br>
 #### Helper Functions
@@ -241,7 +241,7 @@ def preprocess_image(filepath):
     
     return image
 
-# image featurisation function
+# image featurization function
 def featurise_image(image):
     
     feature_vector = model.predict(image)
@@ -472,3 +472,4 @@ It would be beneficial to come up with a way to quantify the quality of the sear
 
 
 Here we utilised VGG16. It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
+
